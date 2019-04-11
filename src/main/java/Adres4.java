@@ -10,4 +10,20 @@ public class Adres4 {
     private String locality;
     private String street;
     private String zipCode;
+
+    public Adres4(String locality, String street, String zipCode) {
+        this.locality = locality;
+        this.street = street;
+        this.zipCode = zipCode;
+    }
+
+    @Override
+    public String toString() {
+        return "Adres4{" +
+                "Id=" + Id +
+                ", locality='" + locality + '\'' +
+                ", street='" + street + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                '}';
+    }
 }
